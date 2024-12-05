@@ -9,7 +9,7 @@ if number < 10
   puts "-1"
 elsif number > 10
   puts "1"
-else number = 10
+else
   puts "0"
 end
 # QUESTION 2
@@ -22,6 +22,6 @@ if x < 5
   puts 0
 elsif x < 50
   puts 1
-else x < 100
+else
   puts 2
 end
