@@ -12,7 +12,7 @@ pp names                               # 6
 # 3: "Bob" will be inserted between "Sharon" and "Majora"
 # 4: x is "Majora"
 # 5: "Sharon" is x
-# 6: ["Sharon", "Majora", "Danilo"]
+# 6: ["Sharon", "Bob", "Majora", "Danilo"]
 
 
 # QUESTION 2
