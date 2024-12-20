@@ -25,8 +25,16 @@ puts "Hello, my name is " + name + ", how are you?"
 
 # End goal
 
-def pig_latin_conversion(word)
-  puts "Type a singular word and hit 'Enter'"
-  word = gets.chomp
+# This is the result after using resources to get the answer to this question #
 
-  puts word + "ay"
+# Get a word from the user
+print "Enter a word: "
+word = gets.chomp
+
+# Convert to Pig Latin: move first letter to end and add 'ay'
+result = word[1..-1] + word[0] + "ay"
+
+# Print the result
+puts result
+
+  
