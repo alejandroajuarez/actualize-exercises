@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("https://www.stockvault.net/data/2011/05/31/124348/thumb16.jpg"); }
+  .img2 { background-image: url("https://t3.ftcdn.net/jpg/02/70/35/00/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg"); }
+  .img3 { background-image: url("https://t4.ftcdn.net/jpg/02/94/82/71/360_F_294827120_2LLGq6gOnc9MvpZ0ejyQH1Rzo9YkPzNH.jpg"); }
+  .img4 { background-image: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?cs=srgb&dl=pexels-pixabay-147411.jpg&fm=jpg"); }
+  .img5 { background-image: url("https://www.stockvault.net/data/2007/03/01/101322/thumb16.jpg"); }
+  .img6 { background-image: url("https://t4.ftcdn.net/jpg/10/08/80/51/360_F_1008805103_AtQskisllxz2BjHwkN9WpzjW9rbrmyvz.jpg"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+  }
