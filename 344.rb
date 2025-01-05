@@ -16,3 +16,5 @@ input = gets.chomp
 # Without looking anything up, I am unsure of the type of loop I would need to use for this type of problem. I think that I'd need a sort of 'for each'
 # loop but I am not sure. In that instance I would say that for each specific number entered, give an output of a roman numeral. I feel very
 # stuck on this problem off the top of my head.
+
+# divide user input by integer of roman numeral

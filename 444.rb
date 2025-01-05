@@ -5,4 +5,5 @@
 
 strings = ["apple", "banana", "avocado", "orange"]
 a_words = strings.select { |word| word.start_with?("a") }
+
 puts a_words
